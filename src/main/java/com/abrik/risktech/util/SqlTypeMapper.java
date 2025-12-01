@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 public class SqlTypeMapper {
 
     /**
-     * Маппинг Java-типа в SQL-тип для PostgreSQL.
+     * Маппинг Java-типа в SQL-тип для PostgreSQL
      * В случае неизвестного типа возвращаю VARCHAR(255) как безопасный дефолт.
      */
     public String mapJavaTypeToSql(Class<?> javaType) {

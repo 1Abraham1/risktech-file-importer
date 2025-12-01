@@ -22,8 +22,7 @@ public class TableSchemaService {
     private final SqlTypeMapper sqlTypeMapper;
 
     /**
-     * Создаю таблицу в БД на основе структуры TableData.
-     * Ожидается, что sqlType в ColumnMeta будет заполнен внутри этого сервиса.
+     * Создаю таблицу в БД на основе структуры TableData
      */
     public void createTable(TableData tableData) {
 

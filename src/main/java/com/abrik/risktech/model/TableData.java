@@ -11,12 +11,9 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TableData {
-    // Имя таблицы в БД
     private String tableName;
 
-    // Метаданные столбцов
     private List<ColumnMeta> columns;
 
-    // Данные по строкам
     private List<List<Object>> rows;
 }
